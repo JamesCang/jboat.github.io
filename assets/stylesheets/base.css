@@ -1,0 +1,22 @@
+/* display */
+.dno {
+  display: none;
+}
+
+.db {
+  display: block;
+}
+
+.dib {
+  display: inline-block;
+}
+
+
+/* float */
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
