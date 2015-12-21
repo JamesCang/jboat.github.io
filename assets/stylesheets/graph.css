@@ -1,0 +1,26 @@
+.graph {
+
+}
+
+.graph__item {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #cf4d35;
+  cursor: pointer;
+}
+
+.graph__item:hover {
+  width: 198px;
+  height: 198px;
+  border-width: 2px;
+}
+
+.graph__detail {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  border: 3px solid #cf4d35;
+  cursor: pointer;
+  z-index: 10001;
+}
