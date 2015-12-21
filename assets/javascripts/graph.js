@@ -1,6 +1,6 @@
 (function(){
 
-  $('.js-graph__item').on('click', function(e) {
+  $('.js-graph__item__img').on('click', function(e) {
     var layer = $('.js-layer');
     var imgSrc = $(e.target).attr('src');
     var graphDetailImg = $('.js-graph__detail');

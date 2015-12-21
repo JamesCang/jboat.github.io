@@ -20,3 +20,17 @@
 .fr {
   float: right;
 }
+
+
+/* clear */
+.cl {
+  clear: left;
+}
+
+.cr {
+  clear: right;
+}
+
+.cb {
+  clear: both;
+}

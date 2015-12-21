@@ -2,7 +2,7 @@
 
 }
 
-.graph__item {
+.graph__item__img {
   margin: 5px;
   width: 200px;
   height: 200px;
@@ -10,10 +10,16 @@
   cursor: pointer;
 }
 
-.graph__item:hover {
+.graph__item__img:hover {
   width: 198px;
   height: 198px;
   border-width: 2px;
+}
+
+.graph__item__link {
+  width: 100%;
+  color: #cf4d35;
+  text-align: center;
 }
 
 .graph__detail {
