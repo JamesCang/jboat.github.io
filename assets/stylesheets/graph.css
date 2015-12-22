@@ -1,5 +1,5 @@
 .graph {
-
+  position: relative;
 }
 
 .graph__item__img {
@@ -23,9 +23,9 @@
 }
 
 .graph__detail {
-  position: fixed;
-  top: 10%;
-  left: 10%;
+  position: absolute;
+  top: 25%;
+  left: 5%;
   border: 3px solid #cf4d35;
   cursor: pointer;
   z-index: 10001;
